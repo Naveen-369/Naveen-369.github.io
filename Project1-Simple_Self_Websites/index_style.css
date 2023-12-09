@@ -1,0 +1,78 @@
+body{
+    background-color:rgb(203, 46, 255);
+}
+.a{
+    color: white;
+    text-align: center;
+    font-size: 33px;
+    background-color: black;
+}
+.Stage_1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+
+.Paragraph_St2{
+    color: white;
+    width: 42%;
+    font-size: 36px;
+    font-style:oblique;
+}
+
+.Table_St1{
+    border:6px double black;
+    width: 20%;
+}
+
+.Table_Heading{
+    color:rgb(203, 46, 255);
+    background-color: white;
+    text-align: center;
+    font-style: oblique;
+}
+.Table_Heading2{
+    color:rgb(203, 46, 255);
+    background-color: white;
+    text-align: center;
+    font-style: oblique;
+    font-size: 39px;
+}
+.Skill_list{
+    font-size: 30px;
+    color:rgb(255, 0, 230);
+    -webkit-text-stroke: 0.5px white; /* Outline and its width */
+    list-style-type:'\2713';
+    padding-left: 30px;
+}
+
+li{
+    padding-left: 10px;
+}
+
+.Table_St2{
+    border:6px double black;
+    width: 30%;
+}
+
+.Certification_List{
+    font-size: 30px;
+    padding-left: 50px;
+    color: blue;
+}
+/* Unvisited link */
+.link-style {
+    color: blue; /* Set the color you want for unvisited links */
+  }
+.Image_Container{
+    text-align: center;
+}
+.Image_Container img{
+    display: inline-block;
+}
+  
+  /* Visited link */
+  .link-style:visited {
+    color: blue; /* Set the color for visited links */
+  }
