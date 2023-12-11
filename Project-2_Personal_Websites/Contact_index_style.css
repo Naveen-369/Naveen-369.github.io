@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url('https://wallpapercave.com/wp/wp7130410.jpg'); 
+    background-repeat: repeat;
+    background-color: black;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.whatsapp-wallpaper {
+    width: 100%;
+    height: 100%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 8, 0);
+    color: white;
+}
+.Name{
+    text-align: center;
+    padding-left: 20px;
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top:10px;
+}
+.logo{
+    font-family: 'Edwardian Script ITC', cursive; 
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top:10px;
+    border: 5px solid white;
+    width: 150px;
+    border-radius: 100%;
+    border-left: 0px;
+    border-right:0px;
+}
+.material-icons{
+    font-size: 40px;
+}
+.imagegrid{
+    display: flex;
+    justify-content: space-between;
+}
+.DetailInText{
+    height: 650px;
+    text-align: center;
+}
+.DetailInText h1{
+    color: white;
+    font-size: 40px;
+    }
+.DetailInText h5{
+    color:red;
+    font-size: 25px;
+    
+}
+.linkedit{
+    color: red;
+    text-decoration: none;
+}
+.linkedit ::after{
+    color:red;
+}
