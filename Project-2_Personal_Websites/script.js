@@ -14,6 +14,6 @@ function redirect_Project_3(){
 }
 /*Declaration of the function for redirecting to the project  */
 function redirect_Project_4(){
-    var websiteRedirect="https://github.com/Naveen-369/Micro_Projects_Basics/tree/main/Java";
+    var websiteRedirect="https://github.com/Naveen-369/Websites/tree/Production_Server/Project-2_Personal_Websites";
     window.open(websiteRedirect, "_blank");
 }
