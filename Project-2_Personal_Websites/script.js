@@ -12,7 +12,7 @@ function redirect_Project_3(){
     var websiteRedirect="https://github.com/Naveen-369/Micro_Projects_Basics/tree/main/Python";
     window.open(websiteRedirect, "_blank");
 }
-/*Declaration of the function for redirecting to the project  */
+/*Declaration of the function for redirecting to the project 4 github link */
 function redirect_Project_4(){
     var websiteRedirect="https://github.com/Naveen-369/Websites/tree/Production_Server/Project-2_Personal_Websites";
     window.open(websiteRedirect, "_blank");
