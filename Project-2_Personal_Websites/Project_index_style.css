@@ -1,0 +1,89 @@
+body{
+    background-color: black;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 8, 0);
+    color: white;
+    margin-bottom: 10px;
+}
+.Name{
+    text-align: center;
+    padding-left: 20px;
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top:10px;
+}
+.logo{
+    font-family: 'Edwardian Script ITC', cursive; 
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top:10px;
+    border: 5px solid white;
+    width: 150px;
+    border-radius: 100%;
+    border-left: 0px;
+    border-right:0px;
+}
+.material-icons{
+    font-size: 40px;
+}
+.ListofProjects{
+    padding-left: 20px;
+}
+.TextBox{
+    color: white;
+    width: 50%;
+}
+.TextBox h1{
+    font-size: 50px;
+    margin:0px;
+    padding-top: 15px;
+}
+.TextBox p{
+    font-size: 20px;
+    margin:0px;
+    padding-top: 15px;
+}
+.AccessButton{
+    font-size: 15px;
+    width: 120px;
+    padding: 12px;
+    border-radius: 20px;
+    margin-left: 600px;
+    color:white;
+    background-color:red;
+    border: 3px double white;
+    z-index: 1;
+}
+.Project_1{
+    display:flex ;
+}
+.Project_2{
+    display:flex ;
+}
+.Project_3{
+    display: flex;
+}
+.Project_4{
+    display: flex;
+}
+.ImageBox{
+    padding-left:300px ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.image{
+    height: 300px;
+    border-radius: 27px;
+}
+.acbutton{
+    padding-top: 40px;
+}
