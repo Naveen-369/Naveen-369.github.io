@@ -1,0 +1,51 @@
+body{
+    background: rgb(250,210,0);
+    background: radial-gradient(circle, rgb(137, 75, 0) 46%, rgba(255,163,0,1) 77%);
+}
+.wrapper{
+    height: 95vh;
+    width: 95vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.appbox{
+    height: 50vh;
+    width: 25vw;
+    border: 5px solid black;
+    border-style: double;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color : violet;
+}
+.wrapper input{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.wrapper button{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    margin-left: 120px;
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.tasks p{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+}
