@@ -1,0 +1,1 @@
+Click=()=>window.location.href="Login.html";

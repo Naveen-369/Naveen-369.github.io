@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    background: rgb(0,0,0);
+    background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(105,100,109,1) 58%, rgba(255,255,255,1) 100%);
+}
+header{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    color: white;
+    h1{
+        margin: 0;
+    }
+}
+/*Declaration for the main body*/
+main{
+    margin: 10px;
+    height: 100vh;
+    max-height: 500px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.inputter h2{
+    text-align: center;
+    font-family: "Play", sans-serif;
+    font-size: 40px;
+    text-decoration: underline;
+}
+.inputtag{
+    display: flex;
+    justify-content: space-between;
+}
+.inputter input{
+    padding: 10px 0px 10px 20px;
+    font-size: 30px;
+    font-family: "Playball",cursive;
+    text-align: center;
+    margin-right: 40px;
+    border-radius: 30px;
+    outline: 0;
+    border: 0;
+}
+.inputter button{
+    padding: 10px 20px;
+    font-size: 30px;
+    font-family: "Playball",cursive;
+    border-radius: 30px;
+    outline: 0;
+    border: 0;
+    margin-top: 50px;
+    background-color:black;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: transform 0.75s ease;
+}
+.inputter button:hover{
+    transform: scale(1.3);
+}
+div{
+    display: flex;
+    justify-content: space-evenly;
+}
+.outputter{
+    margin: 10px;
+}
+.outputter h2{
+    color:#ecdcc5;
+    text-align: center;
+    font-family: "Play", sans-serif;
+    font-size: 40px;
+    text-decoration: underline;
+    margin: 0;
+}
+.outputter .answer{
+    color: whitesmoke;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Playpen Sans", cursive;
+}
+/*Stylings for the footer*/
+footer{
+    background-color: white;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    font-weight: 600;
+}
+footer p{
+    margin: 0;
+}
