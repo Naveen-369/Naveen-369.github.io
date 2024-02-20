@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    background-image: url('ConcertPic.jpg');
+    height: 100%;
+    width: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.492);
+    color: black;
+    font-family: "Playfair Display", serif;
+    margin: 0;
+    h1{
+        margin: 0;
+    }
+}
+main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.LoginBox{
+    padding: 30px;
+    max-width: 70%;
+    max-height: 55%;
+    place-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.61);
+    color: black;
+    font-family: "Kode Mono", monospace;
+    font-size: 30px;
+    font-weight: 900;
+    margin: 0;
+    h2{
+        text-align: center;
+        font-size: 63px;
+        font-family: "Playfair Mono", serif;
+        margin: 0;
+    }
+}
+label{
+    margin-top: 30px;
+}
+input{
+    font-size: 40px;
+    padding: 10px 0px 10px 20px;
+    font-family: "Playfair Display", serif;
+    border-radius: 30px;
+}
+button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+button{
+    font-size: 40px;
+    font-family: "Lobster", sans-serif;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    border: 3px solid white;
+    border-radius: 30px;
+    background: rgb(136,7,255);
+    background: linear-gradient(45deg, rgba(136,7,255,1) 40%, rgba(241,97,0,1) 51%, rgba(255,236,0,1) 61%);
+    transition:transform 0.4s ease;
+}
+button:hover{
+    transform: scale(1.3);
+}

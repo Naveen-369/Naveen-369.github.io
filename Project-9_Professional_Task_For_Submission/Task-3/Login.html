@@ -4,8 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task - 3 Login Page</title>
+    <link rel="stylesheet" href="Login_style.css">
+    <script src="script.js"></script>
 </head>
 <body>
-    
+    <!--Declaration of the Header-->
+    <header>
+        <h1>Naveen Kumar</h1>
+        <h1>Task - 3 - Event Registration - Login</h1>
+    </header>
+    <!--App Box Declaration goes here--
+    This componet has the button - Login-->
+    <main>
+        <section class="LoginBox">
+            <h2>User Login</h2>
+            <label for="UserName">UserName</label>
+            <input type="text" name="UserName" id="UserName">
+            <label for="PassWord">PassWord</label>
+            <input type="password" name="PassWord" id="PassWord">
+            <button type="submit" onclick="PassAuth()">Submit</button>
+            <button type="reset" onclick="window.location.reload()">Reset</button>
+        </section>
+    </main>
 </body>
 </html>

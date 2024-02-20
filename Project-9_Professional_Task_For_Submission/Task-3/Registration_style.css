@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    background-image: url('ConcertPic.jpg');
+    height: 100%;
+    width: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.492);
+    color: black;
+    font-family: "Playfair Display", serif;
+    margin: 0;
+    h1{
+        margin: 0;
+    }
+}
+main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.appinfo{
+    padding: 30px;
+    max-width: 70%;
+    max-height: 55%;
+    place-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.61);
+    color: black;
+    font-family: "Kode Mono", monospace;
+    font-size: 30px;
+    font-weight: 900;
+    margin: 0;
+    h2{
+        text-align: center;
+        font-size: 63px;
+        font-family: "Playfair Mono", serif;
+        margin: 0;
+    }
+}
