@@ -16,12 +16,12 @@
     <main>
         <section class="RegistrationForm">
             <h2>Registration Form</h2>
-            <form>
-                <label for="Name">Name</label>
+            <form >
+                <label for="Name">Name</label><br>
                 <input type="text" name="Name" id="Name"><br><br>
-                <label for="Dob">Date Of Birth</label>
+                <label for="Dob">Date Of Birth</label><br>
                 <input type="date" name="Dob" id="DoB"><br><br>
-                <label for="State">State</label>
+                <label for="State">State</label><br>
                 <select name="State" id="State">
                     <option value="">---Select a State---</option>
                     <option value="Tamil Nadu">Tamil Nadu</option>
@@ -37,6 +37,31 @@
                     <option value="Bihar">Bihar</option>
                     <option value="Assam">Assam</option>
                 </select><br><br>   
+                <label for="Gender">Gender</label><br>
+                <input type="radio" name="Gender" id="Male">
+                <label for="Male">Male</label><br>
+                <input type="radio" name="Gender" id="Female">
+                <label for="Female">Female</label><br>
+                <input type="radio" name="Gender" id="Prefer">
+                <label for="Prefer">Prefer Not to Disclose</label>
+                <br><br>
+                <label for="email">Email-id</label><br>
+                <input style="width: 500px;" type="email" name="Email" id="Email" placeholder="Enter your Email-id">
+                <br><br>
+                <label for="type">Theme you like</label><br>
+                <input type="checkbox" name="Pop" id="PoP">
+                <label class="Music" for="Pop">Pop</label><br>
+                <input type="checkbox" name="Rock" id="Rock">
+                <label class="Music" for="Rock">Rock</label><br>
+                <input type="checkbox" name="Melody" id="Melody">
+                <label class="Music" for="Melody">Melody</label><br>
+                <input type="checkbox" name="Others" id="Others">
+                <label class="Music" for="Others">Others</label>
+                <br><br><br>
+                <section class="Buttons">
+                    <button type="button" onclick="NewUser()">Submit</button>
+                    <button type="reset" onclick="window.location.reload()">Reset</button>
+                </section>
             </form>
         </section>
     </main>
