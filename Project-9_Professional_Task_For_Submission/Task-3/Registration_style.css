@@ -22,7 +22,7 @@ main{
     justify-content: center;
     align-items: center;
 }
-.appinfo{
+.RegistrationForm{
     padding: 30px;
     max-width: 70%;
     max-height: 55%;
@@ -43,4 +43,19 @@ main{
         font-family: "Playfair Mono", serif;
         margin: 0;
     }
+}
+input{
+    font-size: 30px;
+    font-family: "Playfair Mono", serif;
+    padding: 10px 0px 10px 20px;
+    border-radius: 30px;
+}
+select,option{
+    font-size: 20px;
+    font-family: "Playfair Mono", serif;
+    border-radius: 30px;
+    padding: 10px 0px 10px 20px ;
+}
+form{
+    color: blueviolet;
 }
