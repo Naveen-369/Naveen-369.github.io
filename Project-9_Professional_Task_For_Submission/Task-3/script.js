@@ -60,13 +60,29 @@ NewUser=()=>{
     if(!email.endsWith("@gmail.com")){
         alert("Please enter a valid email Address ! ! ! !");
     }
+
+    //Creation of the Gender Properties
+    let Gender=(Male.checked == true) ? "Male" : ((Female.checked == true) ? "Female":"Not Disclosed");
+    //Creation of the Music Properties
+    let Music=[];
+    if(PoP.checked==true)
+        Music.push("Pop");
+    if(Rock.checked==true)
+        Music.push("Rock");
+    if(Melody.checked==true)
+        Music.push("Melody");
+    if(Others.checked==true)
+        Music.push("Others");
     //Creation of the Javascript Object
     let obj={
         "name":name,
-        "State":state,
         "Date_Of_Birth":dob,
-        "Email_Id":email
+        "Email_Id":email,
+        "Gender":Gender,
+        "State":state,
+        "Music Genres":Music
     }
+    console.log(JSON.stringify(obj));
     //Returning a JSON Object
     let db=JSON.parse(JSON.stringify(obj))
     console.log(db);
